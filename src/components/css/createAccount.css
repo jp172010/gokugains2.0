@@ -1,0 +1,78 @@
+#mainDiv {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  font-family: saiyanSans;
+}
+#title {
+  font-family: saiyanSans;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 700;
+  color: red;
+}
+#navbarCA {
+  background-color: blue;
+}
+#TitleCA {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: saiyanSans;
+  color: red;
+}
+#LoginCA {
+  font-family: saiyanSans;
+  color: red;
+}
+#SignUpCA {
+  font-family: saiyanSans;
+  color: red;
+}
+#createAccountButton {
+  font-family: saiyanSans;
+  margin-left: 68%;
+  font-size: 15px;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: 2px solid red;
+  background-color: red;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#createAccountButton:hover {
+  background-color: white;
+  color: black;
+}
+#backButton {
+  font-family: saiyanSans;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  font-size: 14px;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: 2px solid red;
+  background-color: red;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#backButton:hover {
+  background-color: white;
+  color: black;
+}
+#CRCA{
+  font-family: saiyanSans;
+  color: white;
+}
+.appBarLink{
+  text-decoration: none;
+  font-family: saiyanSans;
+  color: white;
+}
+.appBarLink:hover {
+  color: black;
+}
+

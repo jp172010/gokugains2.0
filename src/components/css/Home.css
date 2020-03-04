@@ -1,0 +1,71 @@
+@font-face{
+  font-family: saiyanSans;
+  src: url(fonts/Saiyan-Sans.ttf);
+}
+#mainDivHome {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  font-family: saiyanSans;
+}
+#navbar {
+  background-color: blue;
+}
+#homeTitle {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: saiyanSans;
+  color: red;
+}
+#homeLogin {
+  font-family: saiyanSans;
+  color: red;
+}
+#homeSignUp {
+  font-family: saiyanSans;
+  color: red;
+}
+#intro {
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+#description{
+  border-style: solid;
+  border-width: 15px;
+  border-color: blue;
+  border-radius: 10px;
+  padding:5px;
+  background-image: linear-gradient(red, yellow);;
+}
+.buttonHome {
+  font-family: saiyanSans;
+  font-size: 15px;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: 2px solid red;
+  background-color: red;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.buttonHome:hover {
+  background-color: white;
+  color: black;
+}
+#player{
+  padding-left: 4%;
+}
+#homeCR{
+  font-family: saiyanSans;
+  color: white;
+}
+.appBarLink{
+  text-decoration: none;
+  font-family: saiyanSans;
+  color: white;
+}
+.appBarLink:hover {
+  color: black;
+}
