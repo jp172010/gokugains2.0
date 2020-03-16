@@ -4,6 +4,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import "./css/Login.css";
 import GokuTraining from "./Images/goku-training.jpg";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,6 +30,26 @@ export default function Home() {
   return (
     <div className={classes.root} id="mainDivHome">
       <Grid container spacing={8}>
+      <Grid item xs={12}>
+          <div className={classes.nav}>
+            <AppBar position="static">
+              <Toolbar>
+                <Typography variant="h6" className={classes.title}>
+                  <a href="./">
+                    Goku Gainz
+                  </a>
+                </Typography>
+                <Button color="inherit" href="./Login">
+                  Login
+                </Button>
+                or
+                <Button color="inherit" href="./createAccount">
+                  Sign Up
+                </Button>
+              </Toolbar>
+            </AppBar>
+          </div>
+        </Grid>
         <Grid item xs={12} id="titleHome">
           Goku Gainz!
         </Grid>
@@ -110,6 +134,36 @@ export default function Home() {
           <a href="./createAccount">
             <button id="bottomCreateAccountButton">Create New Account</button>
           </a>
+        </Grid>
+      </Grid>
+      <Grid container spacing={0}>
+        <Grid item xs={12}>
+          <div className={classes.nav}>
+            <AppBar position="static" className={classes.appBar}>
+              <Toolbar>
+                <Typography variant="h6" className={classes.title} id="CRCA">
+                  <a href="#" className="appBarLink">
+                    {" "}
+                    ©{" "}
+                  </a>
+                  2019
+                  <a href="./Home" className="appBarLink">
+                    {" "}
+                    GokuGains
+                  </a>
+                </Typography>
+                <Typography variant="h6">
+                  <a href="#" className="appBarLink">
+                    PrivacyPolicy
+                  </a>
+                  <a href="#" className="appBarLink">
+                    {" "}
+                    Contact
+                  </a>
+                </Typography>
+              </Toolbar>
+            </AppBar>
+          </div>
         </Grid>
       </Grid>
     </div>
